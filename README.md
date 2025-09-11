@@ -15,6 +15,15 @@ This **isn’t** meant to replace [Doppler](https://www.doppler.com/), [Infisica
 [Vault](https://www.hashicorp.com/en/products/vault).
 It’s more like… _training wheels for me as a project maintainer_ + a playground for anyone else curious.
 
+## Problem
+Developers and teams often accidentally expose sensitive secrets (API keys, tokens, DB credentials) in their Git repositories.
+This problem is worsened by:
+
+- AI code assistants generating code with inline secrets (based on vibes).
+- Junior developers or support engineers committing .env files.
+- Manual onboarding/offboarding processes where secrets are shared via shell profiles, echo commands or plaintext files.
+- Security risks from ex-employees retaining access to company credentials.
+- AND LASTLY, commiting secret keys in .bash, fish, zshrc files to dotfiles (Yeah!!, am guilty)
 
 ## Goal (Bring your Idea)
 - Eliminate the use of _.env_ and fetch secrets via a simple CLI.
