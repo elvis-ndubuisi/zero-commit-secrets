@@ -1,0 +1,20 @@
+{
+	"name": "zero-commit-secrets",
+	"private": true,
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"format-and-lint": "biome check .",
+		"format-and-lint:fix": "biome check . --write"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"packageManager": "pnpm@10.15.1",
+	"engine": {
+		"node": ">=20"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.4",
+		"turbo": "^2.5.6"
+	}
+}
