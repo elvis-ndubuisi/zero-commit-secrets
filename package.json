@@ -1,35 +1,35 @@
 {
-	"name": "zero-commit-secrets",
-	"private": true,
-	"scripts": {
-		"test": "turbo test",
-		"format-and-lint": "biome check .",
-		"format-and-lint:fix": "biome check . --write",
-		"commit": "commit"
-	},
-	"keywords": [],
-	"author": "Elvis Ndubuisi",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/elvis-ndubuisi/zero-commit-secrets.git"
-	},
-	"license": "MIT",
-	"packageManager": "pnpm@10.15.1",
-	"engine": {
-		"node": ">=20"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "2.2.4",
-		"@commitlint/cli": "^19.8.1",
-		"@commitlint/config-conventional": "^19.8.1",
-		"@commitlint/prompt-cli": "^19.8.1",
-		"@semantic-release/changelog": "^6.0.3",
-		"@semantic-release/git": "^10.0.1",
-		"@semantic-release/github": "^11.0.6",
-		"@semantic-release/npm": "^12.0.2",
-		"lefthook": "^1.12.4",
-		"semantic-release": "^24.2.8",
-		"turbo": "^2.5.6",
-		"typescript": "^5.9.2"
-	}
+  "name": "zero-commit-secrets",
+  "private": true,
+  "scripts": {
+    "test": "turbo test",
+    "format-and-lint": "biome check .",
+    "format-and-lint:fix": "biome check . --write",
+    "commit": "commit"
+  },
+  "keywords": [],
+  "author": "Elvis Ndubuisi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elvis-ndubuisi/zero-commit-secrets.git"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.15.1",
+  "engine": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/prompt-cli": "^19.8.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.6",
+    "@semantic-release/npm": "^12.0.2",
+    "lefthook": "^1.12.4",
+    "semantic-release": "^24.2.8",
+    "turbo": "^2.5.6",
+    "typescript": "^5.9.2"
+  }
 }
