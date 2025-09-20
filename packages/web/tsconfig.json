@@ -1,5 +1,5 @@
 {
-  "extends": "@zc/ts-config/nextjs.json",
+  "extends": "zcs@ts-config/nextjs.json",
   "compilerOptions": {
     "incremental": true,
     "plugins": [
